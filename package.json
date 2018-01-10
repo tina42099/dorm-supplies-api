@@ -1,0 +1,30 @@
+{
+  "name": "dorm_supplies",
+  "version": "1.0.0",
+  "description": "API for our dorm supplies app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "mongo": "mongod -f ./models/mongod.conf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tina42099/dorm-supplies-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tina42099/dorm-supplies-api/issues"
+  },
+  "homepage": "https://github.com/tina42099/dorm-supplies-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.1",
+    "mongoose": "^4.13.9",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.10",
+    "path": "^0.12.7"
+  }
+}
